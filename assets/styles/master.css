@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.wrapper {
+  height: 600px;
+  width: 1000px;
+  margin: 20px auto;
+  position: relative; }
+
+#dropzone {
+  border: 1px solid #ccc;
+  height: 600px;
+  position: absolute;
+  width: 1000px;
+  z-index: 10; }
+  #dropzone.hover {
+    border: 10px solid #0c0; }
+
+#canvas {
+  height: 600px;
+  position: absolute;
+  width: 1000px; }
